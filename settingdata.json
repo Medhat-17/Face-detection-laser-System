@@ -1,0 +1,53 @@
+{
+  "camera": {
+    "device_index": 0,
+    "frame_width": 1280,
+    "frame_height": 720,
+    "fps": 60,
+    "intrinsic_matrix": [[980.5, 0, 640], [0, 978.3, 360], [0, 0, 1]],
+    "distortion_coeffs": [-0.02, 0.001, 0.0, 0.0, 0.0]
+  },
+  "tensorflow": {
+    "model_path": "tf_models/emotion_net.h5",
+    "confidence_threshold": 0.65,
+    "gpu_enabled": true,
+    "batch_size": 1
+  },
+  "servo_control": {
+    "port": "COM4",
+    "baud_rate": 115200,
+    "pid": {
+      "kp": 2.0,
+      "ki": 0.05,
+      "kd": 0.3
+    },
+    "loop_frequency_hz": 1000,
+    "max_angle_deg": 90
+  },
+  "laser_behavior": {
+    "color_map": {
+      "neutral": "blue",
+      "happy": "green",
+      "sad": "cyan",
+      "angry": "red",
+      "surprised": "yellow"
+    },
+    "intensity_variation": {
+      "neutral": 0.8,
+      "happy": 1.0,
+      "sad": 0.5,
+      "angry": 1.2,
+      "surprised": 0.9
+    }
+  },
+  "logging": {
+    "enable": true,
+    "file_path": "logs/session_log.txt",
+    "telemetry_interval_ms": 100
+  },
+  "visualization": {
+    "enable_dashboard": true,
+    "show_tracking_overlay": true,
+    "display_pid_error": true
+  }
+}
