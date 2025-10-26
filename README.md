@@ -3,23 +3,7 @@ The Face-Detection Laser System is a high-precision mechatronic architecture int
  --Important--:  think it goes without saying, and was evident by my multiple winces on camera, that no one should shoot a laser into their eye. No one should use this technology to inflict bodily harm on themselves or anyone else. That being said, enjoy the repository.
 
 # Features
-
-Real-time face detection using TensorFlow and OpenCV.
-
-Pixel-to-angle mapping via calibrated camera intrinsics and extrinsics.
-
-PID-based servo control implemented in C++ at 1 kHz loop frequency.
-
-Virtual laser rendering with subpixel interpolation and Gaussian decay.
-
-TensorFlow optimizations: float16 quantization and GPU acceleration.
-
-Adaptive preprocessing: histogram equalization and noise normalization.
-
-Continuous logging of sensor and control telemetry; live visualization and parameter tuning via Matplotlib/Tkinter.
-
-Modular codebase: replaceable detection model and controller backend.
-
+Real-time face detection with TensorFlow + OpenCV, pixel-to-angle mapping via calibrated intrinsics/extrinsics, 1 kHz PID servo control in C++, virtual laser rendering with subpixel Gaussian decay, float16 GPU-optimized inference, adaptive preprocessing, live telemetry + tuning via Matplotlib/Tkinter, and modular model/controller backends.
 
 
 
