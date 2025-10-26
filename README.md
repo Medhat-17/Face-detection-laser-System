@@ -10,7 +10,8 @@ The Face-Detection Laser System is a high-precision mechatronic architecture int
 Real-time face detection with TensorFlow + OpenCV, pixel-to-angle mapping via calibrated intrinsics/extrinsics, 1 kHz PID servo control in C++, virtual laser rendering with subpixel Gaussian decay, float16 GPU-optimized inference, adaptive preprocessing, live telemetry + tuning via Matplotlib/Tkinter, and modular model/controller backends.
 
 # OPenCV --Face detection 
-![Laser Detection System Demo](Laser-detection-system/laser-face detection/src/face.png)
+![Laser Detection System Setup](https://github.com/Medhat-17/Laser-detection-system/blob/main/laser-face%20detection/src/face.png)
+
 
 
 
